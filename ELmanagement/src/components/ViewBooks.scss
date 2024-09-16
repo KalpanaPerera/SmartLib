@@ -1,0 +1,26 @@
+/* styles/ViewBooks.scss */
+
+/* Tailwind provides most of the functionality out of the box, so minimal custom styles are required */
+
+/* Custom Animations */
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  body {
+    background: url('/assets/b.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  
